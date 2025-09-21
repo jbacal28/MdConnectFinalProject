@@ -1,0 +1,15 @@
+spring:
+   datasource:
+      username: md_connect
+      password: md_connect
+      url: jdbc:mysql://localhost:3306/md_connect
+      
+   jpa:
+      hibernate:
+         ddl-auto: none
+      show-sql: true
+      defer-datasource-initialization: true
+    
+   sql:
+      init:
+         mode: never
